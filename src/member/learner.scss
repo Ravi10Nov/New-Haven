@@ -1,0 +1,1083 @@
+// // Learner Dashboard shared class for All pages
+// .sharedDashboard {
+//    width: 100%;
+//    height: 100vh;
+//    .dashboardRow{
+//       width: 100%;
+//       display: flex;
+//       .dashboardSidebar{
+//          // width: 30vw;
+//          @media (max-width: 425px) {
+//             display: none;
+//            }
+//       }
+//       .dashboardContent{
+//          background: #e5e5e54d;
+//          width: 100%;
+//          // height: 100%;
+//          .dashboardHeader{
+//             width: 100%;
+//          }
+//          .dashboardContentPanel{
+//             // background-color: #fff;
+//             margin: 2%;
+//             max-width: 100%;
+//             // height: 100vh;
+      
+//             h4{
+//                font-size: 20px;
+//                color: #333;
+//                padding: 8px 15px;
+//             }
+//             .contentRow{
+//                max-width: 100%;
+//                margin: 0 auto;
+//             }
+//          }
+//       }
+//    }
+// }
+
+// .notificationContent{
+//    margin: 18px auto 0;
+//    padding: 0 !important;
+//    background:#FFFFFF;
+//       .notification.active{
+//          background-color: #E5F0FF;
+
+//       .notification.active h5{
+//             color: #333333; 
+//             font-size: 18px; 
+//       }
+
+//      .notification.active p {
+//          font-size: 14px;
+//       }
+
+//       span.underline {
+//          text-decoration: underline;
+//          cursor: pointer;
+//          color: #2196f3;
+//       }
+//    }
+//       .notification,.subheader{
+//       color: #333333;
+//       padding: 20px;
+//    }
+// }
+// // Learner notification style end
+
+
+// // Learner Dashboard Style start
+
+// .timeline_parent_col{
+//    position: relative;
+//    #time_after{
+//       &::after{
+//          content: "";
+//          background-color: #DDDDDD;
+//          position: absolute;
+//          width: 1px;
+//          height: 110px;
+//          left: -24px;
+//          display: block;
+//          @media (max-width:768px) {
+//             display: none;
+//          }
+//       }
+//    }
+// }
+// .timeline_card{
+//    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+//    border-radius: 5px;
+//    border: none;
+   
+// }
+
+// .timeline_title{
+//    font-weight: 700;
+//    font-size: 28px;
+//    line-height: 42px;
+//    color: #2C2C2C;
+// }
+// .timeline_parent{
+//    display: flex;
+     
+//    h6{
+//       font-weight: 500;
+//       font-size: 14px;
+//       color: #8E8E8E;
+//    }
+//    button{
+//       background: #27AE60;
+//       border-radius: 5px;
+//       border: none;
+//       outline: none;
+//       cursor: pointer;
+//       padding: 2px 4px;
+//       font-weight: 400;
+//       font-size: 14px;
+//       color: #FFFFFF;
+//       display: flex;
+//       align-items: center;
+//       margin-left: 20px;
+//    }
+//    #arrow_btn{
+//       background: #F2994A;
+//       padding: 2px 4px;
+//    }
+// }
+// .inner_timeline_progress{
+//    padding: 15px;
+//    .progress_title{
+//       margin-top: 10px;
+//       h3{
+//          font-weight: 400;
+//          font-size: 20px;
+//          color: #333333;
+   
+//       }
+//    }
+//    .progress_cards{
+//       padding-top: 20px;
+//    }
+//    .progress_all_card{
+//       border-radius: 10px !important;
+//       overflow: hidden !important;
+//       box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+//       cursor: pointer;
+//    }
+// }
+
+// .card_title{
+//    color: #230505;
+//    font-weight: 400;
+//    font-size: 16px;
+// }
+//  //Learner Dashboard Style end
+
+
+
+// // Learner Donation Send page start
+// .donationSendContent{
+//    background: #FFFFFF;
+//    margin-top: 26px;
+//    height: auto;
+
+
+//    .content_title  {
+//       padding: 10px 0 0 10px;
+//       margin-bottom: 30px;
+//       h3{
+//          font-weight: 400;
+//          font-size: 20px;
+//          max-width: 214px;
+//          max-height: 30px;
+//          color: #333333
+//       }
+//    }
+
+//       .payment_btn1, .payment_btn2, .payment_btn3, .payment_btn4, .payment_btn5 {
+//          max-width: 100px;
+//          max-height: 36px;
+//          width: 100%;
+//          background: #FFFFFF;
+//          border: 1px solid #18498B;
+//          border-radius: 2px;
+//          margin: 10px 10px;
+//       }
+
+
+//    .payment_detail  {
+//       padding: 10px 0 0 10px;
+//       margin-bottom: 30px;
+
+//       .payment_detail h2{
+//          font-weight: 400;
+//          font-size: 24px;
+//          color: #333333;
+//       }
+//    }
+//    .paymentImg {
+//       max-width: 120px;
+//       max-height: 85px;
+//       text-align: center;
+//       background: #FFFFFF;
+//       border: 1px solid #D1D9E0;
+//       box-sizing: border-box;
+//       border-radius: 4px;
+//       padding: 20px 44px 23px 40px;
+//       margin-left: 16px;
+//       margin-bottom: 50px;
+//       img{
+//          width: 100%;
+//          // height: 100%;
+//       }
+//    }
+   
+//    .submit_button {
+//       background: #18498B;
+//       border-radius: 2px;
+//       margin: 10px 10px;
+//       max-width: 100px;
+//       max-height: 36px;
+//       width: 100%;
+//    }
+//    .back_button {
+//       background: #E6F0FF;
+//       border-radius: 2px;
+//       color: #18498B;
+//       margin: 10px 10px;
+//       max-width: 100px;
+//       max-height: 36px;
+//       width: 100%;
+//    }
+// }
+// // Learner Donation Send page end
+
+
+// // Learner Donation History start
+// .donationHistorycontentPanel{
+//    background: #FFFFFF;
+//    margin-top: 26px;
+//    height: auto;
+//    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+// .bt_success{
+//    background-color: #2CCD76;
+// }
+//    .content_title  {
+//       padding: 20px 0 25px 18px;
+//       h5{
+//          font-weight: 400;
+//          font-size: 20px;
+//          max-width: 214px;
+//          max-height: 30px;
+//          color: #333333;
+//          margin: 0;
+//       }
+//    }
+
+//    .history_table{
+//       width: calc(100% - 15px);
+//       margin-top: 20px;
+//       overflow: hidden;
+//       margin-bottom: 24px;
+//       .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked{
+//          color: #2CCD76 !important;
+//       }
+//       @media (max-width: 992px) { 
+//         overflow-x: auto;
+//        }
+//       @media (max-width: 768px) { 
+//          overflow-x: auto;
+//        }
+//       @media (max-width: 600px) { 
+//          overflow-x: scroll;
+//        }
+
+//       table{
+//          padding-right: 26px;
+//          margin-left: 15px;
+//          margin-bottom: 20px;
+//          width: 100%;
+//          overflow: hidden;
+//          thead{
+//             width: 100%;
+            
+//             th{
+//                border-right: solid 1px #E6F0FF;
+//                background-color: #18498B;
+//                color: white;
+//                padding-left: 15px;
+//                min-width: 150px;
+//                font-size: 16px;
+//                font-weight: 500;
+                
+//             }
+//           }
+//       }
+//       tbody{
+//          text-align: left;
+//          tr{
+//             height: 55px;
+//             td{
+//                padding-left: 15px;
+//             }
+//          }
+//       }
+//    }
+// }
+
+
+// .pagination {
+//    display: flex;
+//    justify-content: flex-end;
+
+//      // Medium devices (tablets, 768px and up)
+//      @media (max-width: 768px) { 
+//         display: flex;
+//       flex-wrap: wrap;
+
+//          p, span {
+//             font-size: 12px;
+//          }
+//       }
+// }
+
+// .historyAddress{
+//    margin-left: 15px;
+//    h5 {
+      
+//       font-weight: 700;
+//       font-size: 16px;
+//    }
+//    p {
+//       font-weight: 400;
+//       font-size: 12px;
+//    }
+// }
+// // Learner Donation History end
+
+
+// // Learner Setting Profile style start
+// .modal_card {
+//    background: #FFFFFF;
+//    border: 1px solid #D9D9D9;
+//    box-sizing: border-box;
+//    .request_Update_Modal {
+//       width: 100%;
+//       text-align: center;
+
+//       p {
+//          color: #262626;
+//          font-weight: 600;
+//          font-size: 16px;
+//       }
+//    }
+   
+// }
+
+// .profilecontentPanel{
+//    background: #FFFFFF;
+//    margin-top: 26px;
+//    height: auto;
+//    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+// }
+// // Learner Setting Profile style end
+
+
+// // Learner Sidebar start
+// .Sidebar.sidebar_dashboard {
+//    max-width: 327px;
+//    padding: 0!important;
+// }
+// .logo_img {
+//    max-width: 120px;
+//    max-height: 120px;
+//    padding: 0 !important;
+//    margin: auto;
+//    img {
+//       width: 80%;
+
+//    }
+// }
+
+// // Learner Sidebar Menu start
+// .dashboardIcon, .libraryIcon, .certificateIcon, .smsIcon, .moneyIcon, .settingIcon, .exitIcon {
+//    color: #18498B;
+// }
+
+// .itemText {
+//    color: #18498B;
+//    font-weight: 600; 
+//    font-size: 18px;
+//    line-height: 27px;
+// }
+
+
+// .courseContent{
+//    background-color: #E6F0FF;
+//    display: flex;
+//    .content{
+//       margin-top: 1vh;
+//       margin-left: 1vw;
+//       margin-bottom: 25px;
+//    }
+//    .sidebar{
+//       background-color: white;
+//       margin-left: 2vw;
+//       margin-top: 2vh;
+//       display: flex;
+//       flex-direction: column;
+//       max-width: 327px;
+//    }
+// }
+
+// .logout_title {
+//    display: flex;
+//    justify-content: flex-start;
+//    align-items: center;
+// }
+
+// .logout_text {
+//    color: #262626;
+//    font-weight: 400;
+//    font-size: 14px;
+//    text-align: center;
+// }
+
+// .logout_confirm_btns {
+//    margin-top: 20px;
+//    margin-right: 20px;
+//    display: flex;
+//    justify-content: flex-end;
+// }
+// // Learner Sidebar Menu end
+
+
+
+// //course area style start
+// .learnerCertificate{
+//    overflow-x: hidden;
+// } 
+// .courseContent{
+//    h3{
+//       font-weight: 400;
+//       font-size: 20px;
+//       margin-bottom:22px;
+//    }
+//    .mb-24{
+//       margin-bottom: 24px;
+//    }
+//    .cdFlex{
+//       display: flex;
+//    }
+//    .w377{
+//       max-width: 377px;
+//       width: 100%;
+//       padding: 16px;
+//    }
+//    .cdFlex1{
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+//       max-width: 520px;
+//       width: 100%;
+//       flex-wrap: wrap;
+//       gap: 10px;
+//       button{
+//          max-width: 129px;
+//          width: 100%;
+//          height:40px;
+//          background:#DDDDDD;
+//          color: #fff;
+//          &:hover{
+//             background: #18498B;
+//          }
+//       }
+//    }
+//    background: #E5E5E5;
+//    display: flex;
+//    .content{
+//       margin-top: 16px;
+//       padding: 24px 16px;
+//       background: #FFFFFF;
+//       box-shadow: 0px 2px 4px rgba(217, 217, 217, 0.5);
+//       border-radius: 5px;
+      
+//       h5{
+//          font-weight: 600;
+//          font-size: 16px;
+//          color: #333333;
+//          margin-top: 24px;
+//       }
+//       .pArea{
+//          max-width: 864px;
+//          width: 100%;
+//       }
+//      .courseVideo{
+//         width: 100%;
+//         img{
+//            width: 100%;
+//         }
+//      }
+//       .certificateCard{
+//          max-width: 377px;
+//          width: 100%;
+//          padding: 16px;
+//          color: #8E8E8E;
+        
+//       }
+//    }
+//    .bottomButton{
+//       padding: 15px;
+      
+     
+//       button{
+//          width: 73px;
+//          padding: 8px;
+//          background-color: #18498B;
+//          font-size: 14px;
+//          border-radius: 2px;
+//          width: 156px;
+//          color: #fff;
+//          margin-right: 15px;
+//          margin-bottom: 15px;
+//       }
+//       .cancelBtn{
+//          background-color: #E6F0FF;;
+//          color: #18498B;
+//          border-radius: 2px;
+//          margin-right: 0px;
+//       }
+//    }
+//    .sidebar{
+//       background-color: white;
+//       margin-top: 16px;
+//       display: flex;
+//       flex-direction: column;
+//       .sidebarBox{
+//          padding: 24px 16px;
+//          ul li {
+//             margin-top: 20px;
+//          }
+//          ul li input{
+//             margin-left: -20px;
+//             margin-top: 20px;
+//             margin-right: 5px;
+//          }
+//       }
+//       .quizBox{
+//          display: flex;
+//          flex-direction: column;
+//          align-items: flex-start;
+//          button{
+//             color: #000;
+//          }
+//          .css-i4bv87-MuiSvgIcon-root{
+//             font-size: 15px;
+//             color: #000;
+//             margin-right: 5px;
+//          }
+//          label{
+//             padding: 9px;
+//             background: #F1F1F1;
+//             font-size: 14px;
+//             svg{
+//                fill:#D0D0D0 ;
+//             }
+//          }
+//       }
+//    }
+// }
+
+// // learner course page modal
+// .modal_title {
+//    font-weight: 600;
+//    font-size: 16px;
+//    color: #262626;
+// }
+// .modal_label {
+//   font-size: 16px;
+//   margin-right: 95px;
+// }
+// .modal_input {
+//   width: 75%;
+// }
+// #modal_cancel_btn {
+//   margin-right: 25px;
+//   background-color: #979797;;
+//   color: #FFFFFF;
+//   border-radius: 4px;
+// }
+// #modal_donate_btn {
+//   background-color: #18498B;
+//   color: #FFFFFF;
+//   border-radius: 4px;
+// }
+// //course-area-end
+
+
+
+
+// // Learner Settings ID start
+// .idSetting_content {
+//    background: #FFFFFF;
+//    margin-top: 26px;
+//    height: auto;
+//    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+
+//    .id_card {
+//       max-width: 561px;
+//       max-height: 840px;
+//       margin: auto;
+
+//       img {
+//          width: 100%;
+         
+//       }
+//    }
+// }
+// // Learner Settings ID end
+
+
+
+// //learner Certificate style start
+// // .learner_contentPanel{
+// //       // background-color: #fff;
+// //       margin: 2%;
+// //       max-width: 100%;
+// //       height: 100%;
+
+// //    h4{
+// //    font-size: 20px;
+// //    color: #333;
+// //    padding: 8px 15px;
+// //    }
+// //    .contentRow{
+// //       max-width: 100%;
+// //       margin: 0 auto;
+// //    }
+// // }
+
+// //certificate tab
+// .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+//    border: 1px solid #D9D9D9 !important;
+//    margin: 0 15px !important;
+// }
+// //learner Certificate style end
+
+
+
+
+// //************ Learner Course page style start ************//
+// .inner_continue_course{
+//    margin-top: 26px;
+//    background: #FFFFFF;
+//    box-shadow: 0px 2px 4px rgba(217, 217, 217, 0.5);
+//    border-radius: 5px;
+//    padding: 15px;
+//    .course_title{
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+//       height: 78px;
+//       border-bottom: 1px solid #EBEBEB;
+//       h3{
+//          font-weight: 400;
+//          font-size: 20px;
+//          color: #333333;
+   
+//       }
+//       .see_more_btn{
+//          padding: 8px 12px;
+//          background: #18498B;
+//          border: 1px solid #DDDDDD;
+//          box-sizing: border-box;
+//          border-radius: 4px;
+//          border: none;
+//          outline: none;
+//          cursor: pointer;
+//          font-weight: 700;
+//          font-size: 14px;
+//          color: #FFFFFF;
+//          i{
+//             color: #FFFFFF;
+//          }
+//       }
+//    }
+//    .continue_cards{
+//       padding-top: 20px;
+//    }
+//    .all_card{
+//       border-radius: 25px 25px 0 0;
+//       overflow: hidden;
+//       box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+//       cursor: pointer;
+
+//       .card_title {
+//          font-weight: 400;
+//          font-size: 16px;
+//          color: #230505;
+//       }
+//    }
+
+//    // /free for title
+//    .free_for_title{
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+//       height: 78px;
+//       margin: 15px 0 0 0;
+//       h3{
+//          font-weight: 400;
+//          font-size: 20px;
+//          color: #333333;
+   
+//       }
+//       .see_more_btn{
+//          padding: 8px 12px;
+//          background: #18498B;
+//          border: 1px solid #DDDDDD;
+//          box-sizing: border-box;
+//          border-radius: 4px;
+//          border: none;
+//          outline: none;
+//          cursor: pointer;
+//          font-weight: 700;
+//          font-size: 14px;
+//          color: #FFFFFF;
+//          i{
+//             color: #FFFFFF;
+//          }
+//       }
+//    }
+//    .free_logo{
+//       display: flex;
+//       justify-content:space-between;
+//       align-items: center;
+//       margin: 6px 0 10px 0;
+//       .box{
+//          padding: 4px 10px;
+//          background: #F1F1F1;
+//          h6{
+//             @media (max-width: 576px) {
+//               font-size: 8px;
+//               }
+     
+//             // Medium devices (tablets, 768px and up)
+//              @media (max-width: 768px) { 
+//               font-size: 8px;
+//               }
+//          }
+//          @media (max-width: 576px) {
+//             padding: 0px 4px;
+//             background: #F1F1F1;
+//             margin: 0 2px;
+//             flex-wrap: wrap;
+//            }
+  
+//          // Medium devices (tablets, 768px and up)
+//           @media (max-width: 768px) { 
+//             padding: 0px 4px;
+//             background: #F1F1F1;
+//             margin: 0 2px;
+//             flex-wrap: wrap;
+//            }
+//       }
+//    }
+// }
+
+
+// //  Learner Settings ID start
+// .idSetting_content {
+//   background: #ffffff;
+// }
+
+// .id-card {
+//   color: rgb(34, 33, 33);
+//   margin-top: 16px;
+//   cursor: pointer;
+//   padding: 15px 5px;
+//   height: 55px;
+//   font-size: 1.1rem;
+// }
+
+// .requestId-inner {
+//   height: 275px;
+// //   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+// //     0px 0px 1px rgba(0, 0, 0, 0.04);
+
+//   span {
+//     margin-top: 50px;
+//     color: #faad14;
+//     font-size: 55px;
+//   }
+// }
+// // Learner Settings ID end
+
+
+// // Group Chat Button start
+// .groupPost_Modal {
+//    text-align: left;
+
+//    .text_input {
+//       margin: 0 !important;
+//       padding: 5px;
+//    }
+
+//    .fileAttach_content {
+//       margin-top: 20px !important;
+//       margin-bottom: 24px;
+//       cursor: pointer;
+//       span {
+//          color: #333333;
+//          font-weight: 400;
+//          font-size: 16px;
+//          padding-left: 10px;
+//       }
+//    }
+
+   
+
+// }
+// // Group Chat Button start
+
+
+
+
+
+
+// // ********SpiritualAdoption style start *********//
+// .courseContent{
+//    background-color: #E6F0FF;
+//    display: flex;
+//    .content{
+//       margin-top: 1vh;
+//       margin-left: 1vw;
+//    }
+//    .sidebar{
+//       background-color: white;
+//       margin-left: 2vw;
+//       margin-top: 2vh;
+//       display: flex;
+//       flex-direction: column;
+//    }
+// }
+
+
+// .inner_introduction_title{
+//    border-bottom: 1px solid #EBEBEB;
+//    h3{
+//       font-weight: 400;
+//       font-size: 20px;
+//       color: #333333;
+//    }
+   
+// }
+// .spiritual_adoption_img{
+//    width: 100%;
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+//    padding: 15px;
+//    img{
+//       width: 70%;
+//    }
+// }
+
+// .courseContent{
+  
+//       @media (max-width: 576px) {
+//          width: 100%;
+//          flex-wrap: wrap;
+       
+//      }
+//  // Medium devices (tablets, 768px and up)
+//   @media (max-width: 768px) { 
+//      width: 100%;
+//       flex-wrap: wrap;
+  
+//    }
+
+// }
+
+// .sidebar{
+//    @media (max-width: 576px) {
+//       width: 100%;
+//       flex-wrap: wrap;
+    
+//   }
+// // Medium devices (tablets, 768px and up)
+// @media (max-width: 768px) { 
+//   width: 100%;
+//    flex-wrap: wrap;
+
+// }
+
+// }
+
+// .sidebarBox ul li input {
+//    width: unset !important;
+// }
+
+
+
+// // *********quiz question area start************
+// .quiz_question{
+//    margin-top: 20px;
+//    p{
+//       background-color: #4285f4;
+//       font-size: 28px;
+//       font-weight: 400;
+//       padding: 30px;
+//       color: white;
+//       @media (max-width: 576px) {
+//          font-size: 20px;
+//       }
+//       // Medium devices (tablets, 768px and up)
+//       @media (max-width: 768px) { 
+//          font-size: 20px;
+//       }
+//    }   
+//  }
+
+//  .sidebarBox h3 {
+//    font-weight: 400;
+//    font-size: 20px;
+//  }
+
+//  .sidebarBox h5 {
+//    font-weight: 400;
+//    font-size: 20px;
+//  }
+
+//  .quiz_btn_container {
+//    display: flex;
+//    justify-content: center;
+//    flex-wrap: wrap;
+//  }
+ 
+//  #active {
+//    background-color: #18498b;
+//    span,
+//    a {
+//      color: white;
+//    }
+//  }
+//  .quiz_btn {
+//    width: 150px;
+//    height: 84px;
+//    background: #f1f1f1;
+//    margin: 30px;
+//    cursor: pointer;
+//    font-size: 21px;
+//  }
+//  .quiz_btn span {
+//    text-align: center;
+//    display: flex;
+//    color: black;
+//  }
+//  .quiz_btn a {
+//    color: black;
+//    font-weight: 700;
+//    text-decoration: none;
+//    padding-bottom: 10px;
+//    display: block;
+//    text-align: center;
+//  }
+
+// //  Learner quiz dashboard area
+
+// .quiz_title{
+//    h5{
+//       font-weight: 400;
+//       font-size: 20px;
+//       color: #333333;
+//      margin: 0px;
+//       padding: 0px 0 20px 0;
+//    }
+// }
+
+// .prevQuiz_button {
+//    background: #F1F1F1;
+//    box-shadow: 0px 5.85029px 23.4012px -7.02035px #D1D1D1;
+//    color: #333333 !important;
+//    cursor: pointer;
+// }
+
+// .nextQuiz_button {
+//    background: #18498B !important;
+//    color: #FFFFFF !important;
+// }
+
+
+
+// // Learner Quiz Modal
+// .QuizModalTitle {
+//    display: flex !important;
+//    justify-content: space-between !important;
+//    align-items: center;
+
+//    .QuizModal_title {
+//       font-weight: 600;
+//       font-size: 14px;
+//    }
+
+//    span {
+//       color: #8C8C8C;
+//       cursor: pointer;
+//    }
+// }
+
+
+// .QuizModalDetail {
+//    text-align: center;
+//    margin-top: 20px;
+
+//    .QuizModal_detail {
+//       font-weight: 600;
+//       font-size: 18px;
+//       color: #000000; 
+//    }
+
+//    .quiz_progress {
+//       max-width: 120px;
+//       max-height: 120px;
+//      margin: 20px auto;
+
+//       .progress_quiz {
+//          width: 100%;
+//       }
+//    }
+// }
+
+
+// .QuizModalButtons {
+//    display: flex;
+//    justify-content: space-around;
+//    align-items: center;
+//    margin-top: 30px;
+
+//    .quizModal_backButton {
+//       background: #979797 !important;
+//       border: 1px solid #979797;
+//       border-radius: 4px;
+//       max-width: 100px;
+//       max-height: 43px;
+//       width: 100%;
+//       color: #FFFFFF;
+//    }
+
+//    .quizModal_retakeButton {
+//       background: #EB5757!important;
+//       border: 1px solid #EB5757;
+//       border-radius: 4px;
+//       max-width: 100px;
+//       max-height: 43px;
+//       width: 100%;
+//       color: #FFFFFF;
+//    }
+
+//    .quizModal_finishButton {
+//       background: #096DD9!important;
+//       border: 1px solid #096DD9;
+//       border-radius: 4px;
+//       max-width: 100px;
+//       max-height: 43px;
+//       width: 100%;
+//       color: #FFFFFF;
+//    }
+// }
+
+// .twoQuizResult {
+//    display: flex;
+//    align-items: center;
+//    justify-content: space-around;
+
+//    .newQuiz_detail {
+//       font-weight: 600;
+//       font-size: 18px;
+//       color: #000000;
+//    }
+// }

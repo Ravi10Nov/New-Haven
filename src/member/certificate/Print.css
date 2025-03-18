@@ -1,0 +1,44 @@
+.certificate{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} 
+
+.certificate  .certificate_img {
+    margin: auto;
+    width: 100px;
+}
+
+.certificate  .certificate_img img{
+    margin: auto;
+    width: 100%;
+}
+
+.certificateSignin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px !important;
+}
+
+.signin_italic{
+    width: 100%;
+    padding: 20px;
+  }
+  .signin_date{
+    width: 100%;
+    padding: 20px;
+  }
+
+
+  @media only screen and (max-width: 992px) {
+      .certificateSignin {
+        flex-direction: column-reverse;
+      }
+      .signin_date h3 {
+          font-size: 22px;
+      }
+      .signin_date p {
+          font-size: 14px;
+      }
+  }

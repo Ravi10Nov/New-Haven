@@ -1,0 +1,10 @@
+.contentPanel{
+    background-color: #fff;
+    margin-top: 1vh;
+ }
+ 
+ /* certificate tab */
+ .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    border: 1px solid #D9D9D9 !important;
+    margin: 0 15px !important;
+ }

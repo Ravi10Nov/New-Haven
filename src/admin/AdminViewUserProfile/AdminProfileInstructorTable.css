@@ -1,0 +1,51 @@
+tr.MuiTableRow-root.MuiTableRow-head.css-1q1u3t4-MuiTableRow-root {
+  background: #18498B;
+}
+span.MuiButtonBase-root.MuiTableSortLabel-root.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root {
+  color: aliceblue;
+  font-size: 14px;
+  font-weight: 500;
+}
+.css-1azl6jz-MuiTableCell-root{
+  text-align: left !important;
+  border-right: 1px solid #fff;
+}
+.css-177gid-MuiTableCell-root{
+  text-align: left !important;
+}
+.css-10dfkli-MuiTableCell-root{
+  border-right: 1px solid #fff;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate, .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked{
+  color:#2CCD76 !important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+  color: #DDDDDD;
+}
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon{
+  color:#fff !important;
+}
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root:hover .MuiTableSortLabel-icon {
+  opacity: .9;
+}
+
+.userView_detailTable{
+  background: #30BCED !important;
+  border-radius: 4px !important;
+}
+.api_hed{
+  font-weight: 400;
+font-size: 24px ;
+color: #333333;
+margin-top: 40px;
+}
+.con_title_cor_ad{
+  height: unset !important;
+  width: unset !important;
+  padding: 20px 15px 0 20px;
+}
+.create_f_width{
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 24px !important;
+}

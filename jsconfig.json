@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "checkJs": false,
+      "module": "es2015",
+      "jsx": "react"
+    }
+}

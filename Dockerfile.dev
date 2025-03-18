@@ -1,0 +1,25 @@
+# Use this command to build docker image: docker build -f Dockerfile.dev -t drala-spirit-of-truth-frontend .
+# Use this command to run the container: docker run -p 3000:3000 -v .:/app drala-spirit-of-truth-frontend
+
+# ==== CONFIGURE =====
+# Use a Node 16 base image
+FROM node:16.14.2-alpine 
+
+WORKDIR /app
+
+COPY package.json ./
+COPY package-lock.json ./
+RUN npm install -g serve
+RUN npm i
+
+COPY . .
+
+#RUN npm run-script build
+# ==== RUN =======
+# Set the env to "production"
+ENV NODE_ENV development
+# Expose the port on which the app will be running (3000 is the default that `serve` uses)
+EXPOSE 3000
+# Start the app
+#CMD [ "npx", "serve", "build" ]
+CMD [ "npm","run", "start" ]

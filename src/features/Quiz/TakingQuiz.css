@@ -1,0 +1,27 @@
+@keyframes squishY {
+    0% {
+      transform: scaleY(1);
+    }
+    100% {
+      transform: scaleY(0.70);
+    }
+  }
+@keyframes unsquishY {
+    0% {
+      transform: scaleY(1);
+    }
+    100% {
+      transform: scaleY(1.25);
+    }
+}
+
+.squish-y {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: squishY 1s;
+    animation-fill-mode: forwards;  
+}
+
+.unsquish-y {
+    animation: unsquishY 1s;
+    animation-fill-mode: forwards;  
+}

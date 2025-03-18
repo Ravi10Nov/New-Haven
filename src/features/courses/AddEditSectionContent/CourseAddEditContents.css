@@ -1,0 +1,137 @@
+.inOption_title{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+}
+.ins_card{
+    border: none;
+    box-shadow: none;
+    padding: 15px;
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+}
+.insOptionSelect{
+    margin-top: 35px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+.w-82{
+    width: 110px;
+}
+.w-155{
+    width: 155px;
+}
+.s_bgBlue{
+    background-color: #2F80ED;
+    background-blend-mode: screen;
+    color: #fff;
+    outline: none;
+    fill: #333333;
+    border-radius: 5px !important;
+    font-size: 16px;
+}
+.s_bgGreen{
+    background-color: #27AE60;
+    background-blend-mode: screen;
+    color: #fff;
+    outline: none;
+    fill: #333333;
+}
+.s_bgDeepBlue{
+    background-color: #18498B;
+    background-blend-mode: screen;
+    color: #fff;
+    outline: none;
+    fill: #333333;
+}
+.s_bgBlue option{
+    background: #fff;
+    color: #333333;
+    box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 16px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+}
+.s_bgGreen option{
+    background-color: #fff !important;
+    color: #333333;
+}
+.s_bgDeepBlue option{
+    background-color: #fff !important;
+    color: #333333; 
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.video::before{
+    font: var(--fa-font-solid);
+    content: "/e467";
+}
+.fa {
+    font-family: 'Lato', 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+     font-weight: 900;
+   padding: 1rem 2rem;
+   color: #000000;
+ 
+ }
+
+ .dropdown-toggle{
+     padding: 0px !important;
+     margin: 0px !important;
+ }
+ .dropdown{
+     height: 24px !important;
+ }
+ .f_dropdown{
+     display: flex;
+     gap: 15px;
+     width: 100% !important;
+     flex-direction: row;
+ }
+ .f_dropdown .nav-link {
+    color: white;
+ }
+ p.v_btn_al {
+    align-items: normal;
+    display: flex;
+    gap: 5px;
+    color: #000;
+}
+
+/* p.v_btn_al .material-icons-outlined{
+    
+} */
+p.v_btn_al .u_line{
+    text-decoration: underline !important;
+    color: #000 !important;
+}
+.bl_cl_v{
+    color: #000000 !important;
+}
+.s_tBlue{
+    color: #18498B;
+}
+
+.uxuiDropdown_menuContent h6   {
+    display: flex;
+    justify-content: flex-start;
+   align-items: center;
+}
+.c_c_pointer{
+    cursor: pointer;
+}
+.c_c_hov{
+    transition: .3s;
+    cursor: pointer;
+}
+/* .c_c_hov_ac{
+    opacity:0 !important;
+}
+.c_c_hov .c_c_hov_ac:hover {
+    opacity: 1 !important;
+}  */

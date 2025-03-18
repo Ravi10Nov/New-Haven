@@ -1,0 +1,31 @@
+@font-face { font-family: 'lucida-handwriting-regular'; 
+    src: url('../../assets/fonts/Lucida\ Handwriting\ Italic.ttf');
+
+} 
+.certificate{
+
+.signature {
+    font-family: 'lucida-handwriting-regular', sans-serif;
+}
+
+p {
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+.A4 {
+    background: white;
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    padding: 10px 25px;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
+    box-sizing: border-box;
+  }
+
+div br {
+    height:2px;
+}
+}

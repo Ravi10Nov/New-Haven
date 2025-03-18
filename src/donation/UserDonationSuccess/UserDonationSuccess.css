@@ -1,0 +1,85 @@
+.usrDS{
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: #FFFFFF;
+  padding: 0;
+  box-shadow: 0px 2px 4px rgba(217, 217, 217, 0.5);
+  border-radius: 5px;
+}
+
+.usrDS_image {
+  max-width: 940px;
+  height: 185px;
+}
+
+.usrDS_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.bodyTitle {
+  text-align: left;
+  margin: 40px 45px;
+}
+
+.bodyContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0;
+  }
+
+  .loveIcon {
+    max-width: 186px;
+    height: 160px;
+  }
+  .loveIcon img {
+    width: 100%;
+    height: 100%;
+  }
+
+  h5 {
+    color: #333333;
+    margin: 27px 0;
+  }
+
+  .tikIcon {
+    max-width: 106px;
+    height: 106px;
+    margin: 50px;
+  }
+  .tikIcon img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bodyPara {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: #000000;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .finishBtn {
+    border: none;
+    background: #18498b;
+    padding: 8px 25px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 35px 0;
+  }
+
+
+  @media only screen and (max-width: 992px) {
+
+    .bodyPara {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }

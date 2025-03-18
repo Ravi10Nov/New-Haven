@@ -1,0 +1,19 @@
+.textEdit_icons {
+    cursor: pointer;
+}
+
+.welcome_text {
+    padding: 15px;
+}
+
+.welcome_text h6 {
+    color: #333333;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.welcome_text p {
+    color: #4F4F4F;
+    font-weight: 300;
+    font-size: 14px;
+}

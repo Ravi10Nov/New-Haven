@@ -1,0 +1,222 @@
+.AdminLoginContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ #Admin_log_left{
+    padding: 10px;
+    width: 50%;
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#Admin_log_left .AdimWelcomeImage {
+    max-width: 600px;
+    text-align: center;
+}
+
+#Admin_log_left .AdimWelcomeImage img {
+    border-Radius: 20px;
+    width: 80%;
+}
+
+#Admin_log_right {
+    padding: 15px 15px 120px 15px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #182b88;
+    height: 100vh;
+}
+
+#Admin_log_right .AdminLogoImage {
+    max-width: 165px;
+    max-height: 164px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+#Admin_log_right .AdminLogoImage{
+    margin: auto;
+    background: #182b88;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+.AdminLogForm {
+    align-items: flex-start;
+     background-color: white;
+     padding: 15px; 
+     border-radius: 5px;
+     margin-top:5px;
+}
+
+
+#AddLog{
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    color: #404040;
+    font-family: Poppins;
+    text-align: center;
+}
+
+#AdminWelcomeline{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    text-align: center;
+}
+
+#FormControlBox{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    max-width: 320px;
+    height: 40px;
+    background: #F5F5F5;
+    border-radius: 12px;
+}
+
+#fromControlInput{
+    outline: none;
+    background-color: #F5F5F5;
+    border: none;
+    width: 90%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+}
+
+#ControlLabel{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #616161;
+}
+
+#errorLine{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    color: #FF5C5C;
+}
+
+#AdminLostPassword{
+    margin-top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #18498B;
+}
+
+#Admin_Btn_Big{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 12px 40px; */
+    width: 320px;
+    height: 45px;
+    background: #18498B !important;
+    border: none;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+#Admin_Btn_Big:hover{
+    transition: .4s ease-out; 
+    background: #0E2D54 !important;
+}
+
+#NoAccount{
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #616161;
+    margin-top: 12px;
+}
+
+#SignupNavigation{
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #18498B;
+    margin-top: 12px;
+    margin-left: 6px;
+}
+
+#SocialLoginBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: black;
+    box-shadow: 0px 0px 2px 2px #ede9e9;
+}
+
+
+
+/************** Medai Queries ****************/
+@media only screen and (max-width: 775px) {
+    #Admin_log_left{
+        display: none;
+    }
+   #Admin_log_right{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 550px) {
+   #Admin_log_right{
+        padding: 10px 10px 120px 10px;
+    }
+    #FormControlBox{
+        width: 100%;
+    }
+    #SocialLoginBtn{
+        width: 100%;
+    }
+    #Admin_Btn_Big{
+        width: 100%;
+    }
+}

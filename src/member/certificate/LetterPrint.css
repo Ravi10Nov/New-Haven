@@ -1,0 +1,42 @@
+.letter{
+    display: flex;
+    flex-direction: column;
+}
+
+.let_title{
+    width: 70%;
+    margin-top: 1%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    text-align: start !important;
+} 
+.let_text {
+    padding-left: 50px !important;
+}
+
+.let_text h2 {
+    margin-bottom: 0!important;
+}
+.let_text h4 {
+   padding: 0!important;
+}
+
+.letter_img img{
+    float: left;
+    text-align: left !important;
+  }
+
+  .let_POBox {
+      text-align: center;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .let_text h2{
+        font-size: 18px !important;
+    }
+    .let_text h4{
+        font-size: 12px !important;
+    }
+    
+  }

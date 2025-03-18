@@ -1,0 +1,36 @@
+.stepper_container {
+    background: #E5E5E5;
+    padding-bottom: 95px;
+    padding: 0 15px;
+}
+
+.stepper_content {
+    max-width: 1360px;
+    height: auto;
+}
+
+.stepper_spacer {
+    height: 40px;
+    width: 100%;
+}
+
+.stepper_content .Stepper {
+    width: 100%;
+    padding: 10px ;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+}
+
+.stepperButtons {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding-bottom: 75px;
+}
+
+.customer-stepper {
+    position: absolute;
+    top: 475px;
+    left: 65px;
+}

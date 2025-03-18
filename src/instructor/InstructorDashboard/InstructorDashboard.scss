@@ -1,0 +1,135 @@
+
+// .donationHistorycontentPanel{
+//    background: #FFFFFF;
+//    margin-top: 26px;
+//    height: auto;
+//    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+
+//    .content_title  {
+//       padding: 10px 0 0 10px;
+//       margin-bottom: 30px;
+//       h3{
+//          font-weight: 400;
+//          font-size: 20px;
+//          max-width: 214px;
+//          max-height: 30px;
+//          color: #333333
+//       }
+//    }
+
+//    .history_table{
+//       max-width: 815px;
+//       margin-top: 20px;
+
+//       @media (max-width: 992px) { 
+//          max-width: 715px;
+//        }
+//       @media (max-width: 768px) { 
+//          max-width: 615px;
+//        }
+//       @media (max-width: 600px) { 
+//          max-width: 515px;
+//        }
+
+//       table{
+//          margin-left: 15px;
+//          margin-bottom: 20px;
+//          width: 100%;
+//          thead{
+//             text-align: center;
+//             background: #182b88;
+//             max-width: 200px;
+//             max-height: 54px;
+            
+//             th{
+//                border-right: solid 1px #E6F0FF;
+//                background-color: #18498B;
+//                color: white;
+//             }
+//           }
+//       }
+//    }
+// }
+
+// .pagination {
+//    display: flex;
+//    justify-content: flex-end;
+
+//      // Medium devices (tablets, 768px and up)
+//      @media (max-width: 768px) { 
+//         display: flex;
+//       flex-wrap: wrap;
+
+//          p, span {
+//             font-size: 12px;
+//          }
+//       }
+// }
+
+// .historyAddress{
+//    margin-left: 15px;
+//    h5 {
+      
+//       font-weight: 700;
+//       font-size: 16px;
+//    }
+//    p {
+//       font-weight: 400;
+//       font-size: 12px;
+//    }
+// }
+
+// .table_btn{
+//    background: #30BCED;
+//    border-radius: 4px;
+//    color: white;
+// }
+
+
+// [data-colindex="9"] div{
+//    background: #30BCED;
+//    border-radius: 4px;
+//    padding: 4px 6px;
+//    color: white;
+//    cursor: pointer;
+//  }
+//  .instructor_parent_col{
+//    position: relative;
+//    #time_after{
+//       &::after{
+//          content: "";
+//          background-color: #DDDDDD;
+//          position: absolute;
+//          width: 1px;
+//          height: 110px;
+//          left: -24px;
+//       }
+//    }
+// }
+//  .instructor_parent{
+//    display: flex;
+     
+//    h6{
+//       font-weight: 500;
+//       font-size: 14px;
+//       color: #8E8E8E;
+//    }
+//    button{
+//       background: #27AE60;
+//       border-radius: 5px;
+//       border: none;
+//       outline: none;
+//       cursor: pointer;
+//       padding: 2px 3px;
+//       font-weight: 400;
+//       font-size: 12px;
+//       color: #FFFFFF;
+//       display: flex;
+//       align-items: center;
+//       margin-left: 10px;
+//    }
+//    #arrow_btn{
+//       background: #F2994A;
+//       padding: 2px 3px;
+//    }
+// }

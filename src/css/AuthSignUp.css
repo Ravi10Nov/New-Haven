@@ -1,0 +1,226 @@
+.loginContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Reg_Container #Register_leftPart{
+    padding: 10px;
+    width: 50%;
+    background-color: #f8f8f8;
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#Register_leftPart .welcomeImage {
+    max-width: 600px;
+    text-align: center;
+}
+
+#Register_leftPart .welcomeImage img {
+    border-Radius: 20px;
+    width: 80%;
+}
+
+.Reg_Container #Register_rightPart{
+    padding: 15px 15px 120px 15px;
+    width: 50%;
+    /* height: 90vh; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* background: #182b88;  */
+    /* height: 100vh; */
+}
+
+.Reg_Container #Register_rightPart .logoImage {
+    max-width: 165px;
+    max-height: 164px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.Reg_Container #Register_rightPart .logoImage logo{
+    margin: auto;
+    background: #182b88;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+.loginForm {
+    align-items: flex-start;
+     background-color: white;
+     padding: 15px; 
+     border-radius: 5px
+}
+
+
+#RegSignin{
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    color: #404040;
+    font-family: Poppins;
+    text-align: left;
+}
+
+#RegWelcomeline{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    text-align: left;
+}
+
+#FormControlBox{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    max-width: 320px;
+    height: 40px;
+    background: #F5F5F5;
+    border-radius: 12px;
+}
+
+#fromControlInput{
+    outline: none;
+    background-color: #F5F5F5;
+    border: none;
+    width: 90%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+}
+
+#ControlLabel{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #616161;
+}
+
+#errorLine{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    color: #FF5C5C;
+}
+
+#lostPassword{
+    margin-top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #18498B;
+}
+
+#Reg_SigninBtn_Big{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 12px 40px; */
+    width: 320px;
+    height: 45px;
+    background: #18498B !important;
+    border: none;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+#Reg_SigninBtn_Big:hover{
+    transition: .4s ease-out; 
+    background: #0E2D54 !important;
+}
+
+#NoAccount{
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #616161;
+    margin-top: 12px;
+}
+
+#RegSignupNavigation{
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #18498B;
+    margin-top: 12px;
+    margin-left: 6px;
+}
+
+#RegSocialLoginBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: black;
+    box-shadow: 0px 0px 2px 2px #ede9e9;
+}
+
+.reg_checkbox {
+    font-size: 10px;
+}
+
+/************** Medai Queries ****************/
+@media only screen and (max-width: 775px) {
+    #Register_leftPart{
+        display: none !important
+    }
+   .Reg_Container #Register_rightPart{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    #Register_leftPart{
+        display: none !important
+    }
+   .Reg_Container #Register_rightPart{
+        padding: 10px 10px 120px 10px;
+    }
+    #FormControlBox{
+        width: 100%;
+    }
+    #RegSocialLoginBtn{
+        width: 100%;
+    }
+    #Reg_SigninBtn_Big{
+        width: 100%;
+    }
+}

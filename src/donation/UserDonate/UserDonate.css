@@ -1,0 +1,269 @@
+.modal_img{
+    max-width: 786px;
+    max-height: 100vh;
+}
+.modal_img img {
+    width: 100%;
+    margin: 0 auto;
+}
+.donation_container {
+    background: #E5E5E5;
+}
+
+.donation_content {
+    max-width: 1162px;
+    height: auto;
+    padding: 0 !important;
+}
+
+.inner_content {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(217, 217, 217, 0.5);
+    border-radius: 5px;
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.donation_banner {
+    max-width: 1162px;
+    max-height: 185px;
+}
+
+.donation_banner {
+    width: 100%;
+}
+
+.donation_detail {
+    margin: 18px 0 0 22px;
+}
+
+.donation_title h3{
+    color: #333333;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.donation_text {
+    margin-top: 24px;
+    margin-bottom: 55px;
+}
+
+.donation_text p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    padding: 0;
+}
+.donation_text h3 {
+    font-weight: 610;
+    font-size: 18px;
+    line-height: 28px;
+    color: #eb0800;
+    /* color: #ba0600; */
+    padding: 0;
+}
+
+.amount_buttons {
+    margin-bottom: 54px;
+}
+
+.amount_btn1, .amount_btn2, .amount_btn3, .amount_btn4, .amount_btn5, .amount_btn6{
+    font-weight: 400;
+    font-size: 18px;
+    color: #18498B;
+    background: #FFFFFF;
+    border: 1px solid #18498B;
+    box-sizing: border-box;
+    border-radius: 2px;
+    transition: .5s ease-in-out;
+    outline: 0;
+}
+
+
+.amount_btn1:hover, .amount_btn2:hover, .amount_btn3:hover, .amount_btn4:hover, .amount_btn5:hover, .amount_btn6:hover {
+    background: #18498B;
+    border: 1px solid #18498B;
+    color: #FFFFFF;
+}
+
+.payment_details {
+    margin: 21px 0 0 22px;
+}
+
+.payment_details .payment_title h2 {
+    color: #333333;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.payment_details .payment_img {
+    max-width: 120px;
+    max-height: 85px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #D1D9E0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 20px 44px 23px 40px;
+}
+
+.payment_details .paypal_title h4{
+    margin: 4px 0 20px 32px;
+    color: #525050;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.submit_btn {
+    background: #18498B;
+    border-radius: 2px;
+    width: 156px;
+    height: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 11px 0;
+}
+
+.back_btn {
+    background: #E6F0FF;
+    border-radius: 2px;
+    width: 158px;
+    height: 40px;
+    color: #18498B;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 11px 10px;
+}
+
+.adoption_content {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.adoption_content h4 {
+    color: #333333;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.adoption_button {
+    margin-top: 25px;
+    padding-bottom: 45px;
+}
+
+.adoption_btn {
+    background: #2F80ED;
+    border-radius: 2px;
+    max-width: 156px;
+    max-height: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    /* padding: 12px 35px; */
+}
+
+
+/*===========Media Query===========*/
+@media only screen and (max-width: 992px) {
+    .donation_text p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+
+    .donation_title h3{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .adoption_content h4 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .payment_details .payment_title h2 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .donation_text p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .modal_img{
+        max-width: 600px;
+        max-height: 1000px;
+    }
+    .donation_text p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .donation_title h3{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .adoption_content h4 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .payment_details .payment_title h2 {
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .modal_img{
+        max-width: 400px;
+        max-height: 1000px;
+    }
+    .donation_text p {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .donation_title h3{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .adoption_content h4 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .payment_details .payment_title h2 {
+        font-weight: 400;
+        font-size: 16px;
+    }
+}

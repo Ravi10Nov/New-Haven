@@ -1,0 +1,38 @@
+div.ant-upload{
+    width: 100%;
+
+}
+.ant-upload-picture-card-wrapper.image-upload-grid{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.ant-upload-list-picture-card-container{
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+}
+.ant-upload-list.ant-upload-list-picture-card{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.ant-upload-list-item-info{
+ padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ant-upload.ant-upload-select.ant-upload-select-picture-card{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: none !important;
+}
+.ant-upload-list-item.ant-upload-list-item-done.ant-upload-list-item-list-type-picture-card{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: none !important;
+}

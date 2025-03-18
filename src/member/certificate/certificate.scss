@@ -1,0 +1,141 @@
+// // .certificate{
+// //   display: flex;
+// //   flex-direction: column;
+// //   text-align: center;
+// //   img{
+// //     margin: auto;
+// //   }
+// //   .certificateSignin{
+// //     display: flex;
+// //     flex-direction: row;
+// //     justify-content: space-around;
+// //     .signin_italic{
+// //       width: 40%;
+// //     }
+// //     .signin_date{
+// //       width: 40%;
+// //     }
+// //   }
+// // }
+// // .letter{
+// //   display: flex;
+// //   flex-direction: column;
+// //   .title{
+// //     width: 70%;
+// //     margin-top: 1%;
+// //     img{
+// //       float: left;
+// //     }
+// //   } 
+// // }
+
+
+
+// .certificate{
+//   display: flex;
+//   flex-direction: column;
+//   text-align: center;
+//   width: 100%;
+//   img{
+//     margin: auto;
+//     width: 100%;
+//   }
+//   .certificateSignin{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-around;
+//     .signin_italic{
+//       width: 40%;
+//     }
+//     .signin_date{
+//       width: 40%;
+//     }
+//   }
+// }
+// // .letter{
+// //   display: flex;
+// //   flex-direction: column;
+// //   width: 100%;
+// //   .title{
+// //     width: 100%;
+// //     margin: 0 auto;
+// //     margin-top: 1%;
+// //     img{
+// //       width: 100%;
+// //       text-align: center;
+// //    }
+// //   } 
+// // }
+// .pagination {
+//   display: flex;
+//   justify-content: flex-end;
+//   align-items: baseline;
+//   font-size: 14px;
+//   flex-wrap: wrap;
+//   p{
+//      font-size: 16px;
+//      margin-right: 10px;
+//   }
+//   select{
+//      border: 1px solid #D9D9D9;
+//      color: #262626;
+//      height: 32px;
+//      border-radius: 2px;
+//      padding: 3px 4px;
+//      margin-left: 8px;
+//   }
+//   span{
+//      margin-left: 8px;
+     
+//   }
+//   input{
+//      width: 71px !important;
+//      height: 30px;
+//      border: 1px solid #D9D9D9;
+//      color: #262626;
+//      margin-left: 6px;
+//   }
+
+//    .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root {
+//         border: 1px solid #D9D9D9;
+       
+//     }
+//     .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+//      background-color: #f1f1f114 !important;
+//      border: 1px solid #18498B !important;
+//      color: #18498B !important;
+//  }
+// }
+
+// //tab area style
+// .tabButton {
+//   display: flex;
+//   max-width: 250px;
+//   width: 100%;
+//   flex-wrap: wrap;
+//   gap: 15px;
+//   .downloadBtn{
+//     background: #18498B;
+//     border: 1px solid #18498B;
+//     font-size: 14px;
+//     color: #fff;
+//     padding: 4px 8px;
+//     &:hover{
+//       border: 1px solid #18498B;
+//       color: #18498B;
+//     }
+//   }
+//   .printBtn{
+//     background: #34A853;
+//     border: 1px solid #34A853;
+//     color: #fff;
+//     font-size: 14px;
+//     color: #fff;
+//     padding: 4px 8px;
+//     &:hover{
+//       border: 1px solid #34A853;
+//       color: #34A853;
+//     }
+
+//   }
+// }

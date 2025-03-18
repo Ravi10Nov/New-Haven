@@ -1,0 +1,39 @@
+.content {
+    background: #E5E5E5;
+     min-height: 100vh;
+}
+
+.notificationContent {
+    margin: 18px auto 0;
+   padding: 0 !important;
+   background:#FFFFFF;
+}
+
+.notification.active h5{
+    color: #333333; 
+    font-size: 18px; 
+}
+
+.notification.active p {
+    font-size: 14px;
+}
+
+span.underline {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #2196f3;
+}
+
+.notification h5{
+    color: #333333; 
+    font-size: 18px; 
+}
+
+.notification p{
+    font-size: 14px;
+}
+
+.continueBtn {
+    background: #18498B; 
+    border-radius: 2px,
+}

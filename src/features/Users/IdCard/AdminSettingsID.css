@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "lucida-handwriting-regular";
+  src: url("../../../assets/fonts/Lucida\ Handwriting\ Italic.ttf");
+}
+
+@font-face {
+  font-family: "text-font";
+  src: url("../../../assets/fonts/The\ Sans\ Semi\ Bold-\ Regular.ttf");
+}
+
+.black-border {
+  border: 1px black solid;
+}
+.signature {
+  font-family: "lucida-handwriting-regular", sans-serif;
+}
+.text-style {
+  font-family: "text-font", "Times New Roman", Times, serif;
+}
+
+.setting_id_imx_box {
+  max-width: 560px;
+  width: 100%;
+  margin: 0 auto;
+}
+.setting_id_imx_box img {
+  width: 100%;
+  text-align: center;
+}
+
+.id-card-transform {
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+.rotate {
+}

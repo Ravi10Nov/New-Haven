@@ -1,0 +1,42 @@
+#forgotPassTxt{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #404040;
+    margin-top: 20px;
+}
+#ForgotTxt{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #757575;
+}
+#SubmitBtn{
+    width: 135px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 15px;
+    background: #18498B;
+    border-radius: 12px;
+}
+#SubmitBtn:hover{
+    transition: .4s ease-out; 
+    background: #0E2D54 !important;
+}
+@media only screen and (max-width: 550px) {
+    #forgotPassTxt{
+        font-size: 24px;
+    }
+    #ForgotTxt{
+        font-size: 14px;
+    }
+    #AdditionalID{
+        width: 90%;
+    }
+}

@@ -1,0 +1,134 @@
+#RiseOfMedicalText{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #000;
+    margin-top: 40px;
+    text-align: center;
+}
+#RiseofMedical_Tagline{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    margin: 20px 5px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 775px) {
+    #RiseOfMedicalText{
+        font-size: 26px;
+    }
+    #RiseofMedical_Tagline{
+        width: 90%;
+    }
+}
+
+/* Authority style */
+#authorityBoxesParentDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#authorityBoxes {
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 300px;
+    margin: 4px;
+    padding: 10px;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#authorityBoxes h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    color: #000;
+}
+
+#authorityBoxes Button:hover {
+    transition: .4s ease-out;
+    background: #0E2D54 !important;
+}
+#authorityBoxes Button {
+    width: 159px;
+    height: 56px;
+    background: #18498B;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+@media only screen and (max-width: 775px) {
+    #authorityBoxesParentDiv{
+        justify-content: center;
+        width: 100%;
+        max-width: unset;
+    }
+}
+
+.carousel-control-prev {
+    left: -22px;
+}
+.carousel-control-next {
+    right: -22px;
+}
+
+@media only screen and (max-width: 992px) {
+    .carousel-control-prev {
+        left: 0;
+    }
+    .carousel-control-next {
+        right: 0;
+    }
+    .auth_main_title{
+        width: 100% !important;
+        max-width: 250px !important;
+        margin: 0 auto !important;
+    }
+    .auth_main_title h1{
+        font-size: 26px !important;
+    }
+    .auth_main_title p{
+        font-size: 15px !important;
+    }
+}
+@media only screen and (max-width: 775px) {
+    .carousel-control-prev {
+        left: 0;
+    }
+    .carousel-control-next {
+        right: 0;
+    }
+    /* .auth_main_title{
+        width: 100% !important;
+        max-width: 300px !important;
+        margin: 0 auto !important;
+    } */
+    .auth_main_title h1{
+        font-size: 24px !important;
+    }
+    .auth_main_title p{
+        font-size: 12px !important;
+    }
+    
+}

@@ -1,0 +1,51 @@
+/*  Instructor Sidebar Menu start */
+.dashboardIcon, .libraryIcon, .certificateIcon, .smsIcon, .moneyIcon, .settingIcon, .exitIcon, .creditCardIcon {
+   color: #18498B;
+}
+
+.itemText {
+   color: #18498B;
+   font-weight: 600; 
+   font-size: 18px;
+   line-height: 27px;
+}
+
+
+.courseContent{
+   background-color: #E6F0FF;
+   display: flex;
+}
+
+.content{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-bottom: 25px;
+ }
+
+ .sidebar {
+   background-color: white;
+   display:flex;
+   flex-direction: column;
+   max-width: 100%;
+   border-right: 1px solid #DDDDDD;
+}
+
+.logout_title {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.logout_text {
+   color: #262626;
+   font-weight: 400;
+   font-size: 14px;
+   text-align: center;
+}
+
+.logout_confirm_btns {
+   margin-top: 20px;
+   margin-right: 20px;
+   display: flex;
+   justify-content: flex-end;
+}

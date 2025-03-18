@@ -1,0 +1,12 @@
+{
+    "name": "Launch Firefox",
+    "type": "firefox",
+    "request": "launch",
+    "url": "http://localhost:3000",
+    "pathMappings": [
+      {
+        "url": "http://localhost:3000/path/to/my-repo/",
+        "path": "${workspaceFolder}/sotna-react/src"
+      }
+    ]
+  }

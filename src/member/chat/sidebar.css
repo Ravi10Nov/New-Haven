@@ -1,0 +1,140 @@
+.chattingmen {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    /* max-width: 350px; */
+    max-height: 718px;
+    padding: 15px;
+    /* margin: 1vw; */
+}
+
+.chattingmen i {
+    color: #262626;
+    cursor: pointer;
+}
+
+.chat_titleBar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_friends {
+    margin: 15px 0 20px 0;
+}
+
+.search_friends {
+    max-width: 250px;
+    max-height: 44px
+}
+
+.search_friends .searching_friends{
+    width: 100%;
+}
+
+.chat_friendList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px;
+    transition: 0.6s ease-in-out;
+}
+
+.chat_friendList p {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.chat_friendList:hover {
+    background: #E6F0FF !important;
+    border-radius: 4px;
+}
+
+.userImg img {
+    border-radius: 15px;
+    width: 38px;
+    height: 38px;
+
+
+}
+
+.nameAndDetail {
+    margin-left: 5px;
+}
+
+
+.nameAndDetail h5{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.nameAndDetail p{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.startChat_modalBox {
+    margin-top: 35px !important;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+
+.startChat_searchName {
+    color: #000000 !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+}
+
+.startChat_searchField {
+    display: flex;
+    width: 100%;
+    max-width: 850px;
+    height: 40px;
+    border: 1px solid #f0f2f5;
+    border-radius: 4px;
+    padding: 8px 8px;
+    margin-left: 15px;
+    background: #FAFAFA;
+}
+
+.startChat_searchField  input {
+    background: #FAFAFA;
+}
+
+.startChat_searchField .fa-solid {
+    color: #6E6E6E;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.frndChat_select {
+    margin-top: 32px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.startChat_frndList {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.startChat_frndList:hover {
+    background:  #E6F0FF;
+}
+
+.startChat_frndName {
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+

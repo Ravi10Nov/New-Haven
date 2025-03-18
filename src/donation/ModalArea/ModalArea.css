@@ -1,0 +1,23 @@
+/* .modal_img{
+    max-width: 768px;
+    max-height: 1000px;
+}
+
+.modal_img img {
+    width: 100%;
+    margin: 0 auto;
+} */
+
+@media only screen and (max-width: 600px) {
+  .modal_img {
+    max-width: 600px;
+    max-height: 1000px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .modal_img {
+    max-width: 600px;
+    max-height: 1000px;
+  }
+}

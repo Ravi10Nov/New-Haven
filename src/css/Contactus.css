@@ -1,0 +1,39 @@
+.SendMessageTextHeader {
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 30px;
+}
+#SendMessageText{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+#ContactusForm{
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 2px;
+    padding: 20px;
+}
+input#formPlaintextName, input#formPlaintextEmail, input#formPlaintextNmuber, input#formPlaintextSubject, textarea#formPlaintextArea {
+    margin: 0;
+}
+
+.CntUs{
+    width: 100%;
+}
+
+ @media only screen and (max-width: 991px) {
+    #ContactUs_ImgBox{
+        display: none;
+    }
+    #ContactusForm{
+        width: 100%;
+        margin: 0 auto;
+    }    
+}

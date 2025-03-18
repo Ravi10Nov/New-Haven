@@ -1,0 +1,52 @@
+.add_course_area{
+  margin-top: 25px;
+}
+.t_head th{
+  padding: 13px 0;
+  
+}
+.t_head{
+  position: relative;
+}
+.t_head::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  /* width: 98.6%; */
+  width: calc(100% - 14px);
+  border: 1px solid #F0F0F0;
+  
+}
+.l_ml_15{
+  margin-left: 15px !important;
+}
+.bt_danger{
+  background: #EB5757 !important;
+}
+.t_head tr{
+  height: 65px !important;
+}
+.lc_flex{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+/* :nth-child(2) */
+.t_head tr td:nth-child(2){
+  border-left: 1px solid #F0F0F0;
+}
+.t_head tr td:nth-child(3){
+  border-left: 1px solid #F0F0F0;
+}
+.l_pad{
+  padding: 24px 17px 39px !important;
+}
+/* responsive */
+/* @media (max-width: 767.98px) { ... } */
+@media (max-width: 991.98px) { 
+  .t_head::before {  
+      width: calc(100%);
+  }
+}
